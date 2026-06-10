@@ -1,0 +1,13 @@
+# Exemple de fichier terraform.tfvars
+# Copiez ce fichier en terraform.tfvars et adaptez les valeurs
+# Ce fichier PEUT etre committe (pas de secrets)
+
+bucket_prefix = "formation-tp01"
+environment   = "dev"         # dev | staging | prod
+owner         = "votre-email@example.com"
+project       = "formation-tp01"
+
+tags = {
+  CostCenter = "formation"
+  Team       = "devops"
+}
